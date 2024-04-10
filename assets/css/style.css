@@ -1,0 +1,17 @@
+body {
+  background-color: #0463ca;
+}
+
+.name {
+  overflow: hidden;
+  animation: typing 5s steps(150) infinite;
+  white-space: nowrap;
+}
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
